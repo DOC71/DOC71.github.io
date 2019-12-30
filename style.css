@@ -1,0 +1,122 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	background: #5F9EA0;
+	overflow-x: hidden;
+}
+
+a{
+	text-decoration: none;
+}
+
+.pushkin{
+	text-align: center;
+	margin-top: 25px;
+	color: #fff;
+	font-size:17px;
+}
+
+.p2{
+	text-align: center;
+	margin-top: 38px;
+}
+
+hr{
+	color: #000;
+	background: #000;
+	margin-top: -2px;
+}
+
+.doclad{
+	top:0;
+	position: absolute;
+	font-family: 'Patrick Hand', cursive;
+	color: #fff;
+	margin-left: 3px;
+	font-size:35px;
+	transition: all 0.3s;
+}
+
+.doclad:hover{
+	color: #ADD8E6;
+}
+
+.text{
+	color: #fff;
+	font-size: 18px;
+	margin-left: 5px;
+}
+
+.icon22{
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+	background: #008080;
+	transition: all 0.3s;
+}
+
+footer a{
+	padding: 2.5px;
+}
+
+footer:hover{
+	background: #ADD8E6;
+}
+
+.asd{
+	text-align: center;
+}
+
+footer nav a img:hover{
+	background: #ddd;
+	border-radius: 50%;
+}
+
+footer nav a img{
+	transition: all 0.3s;
+}
+
+.img2{
+  width: 140px;
+  background: white;
+  box-shadow: 0 3px 10px #ccc;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  text-indent: 0px;
+  text-align: center;
+  padding: 5px;
+  z-index: 100;
+}
+
+.img{
+	float: right;
+}
+
+
+@media screen and (max-width: 583px){
+	.doclad{
+		font-size: 20px;
+}
+}
+
+@media screen and (max-width: 423px){
+	.icon23{
+		width: 90%;
+		height: 50%;
+	}
+}
+
+@media screen and (max-width: 1119px){
+	.text{
+		flex-wrap: wrap-reverse;
+	}
+}
